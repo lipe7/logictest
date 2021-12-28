@@ -65,6 +65,8 @@ Precisamos que essa estrutura seja convertida para o seguinte formato.
 ## Como testar?
 
 Para testar seu código, basta apenas rodar o seguinte comando:
+ps: a depender da versao do php será necessário remover `declare(strict_types=1);`
+path: `\vendor\phpunit\phpunit\phpunit`
 
 ```bash
 php vendor/bin/phpunit test --colors
